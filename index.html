@@ -4,11 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="responsivo.css">
+    <link rel="shortcut icon" href="./imagens/favicon-32x32.png" type="image/x-icon">
     <title>GA3 Instalações</title>
 </head>
 <body>
-    <header class="cabecalho">
-        <img class="logo" src="./imagens/IMG-20220804-WA0004.jpg" alt="logo ga3 instalações">
+    <!-- Header -->
+    <header>
+        <div class="cabecalho">
+            <img src="./imagens/logo.jpeg" alt="Logo GA3">
+            <h1>Instalação de Aberturas</h1>
+        </div>
+        <p>Qualidade e profissionalismo em cada projeto</p>
     </header>
+    <!-- Carracel -->
+    <div id="carrocel" class="container">
+        <div>
+            <div id="item" class="imagens">
+                <div >
+                    <img src="./imagens/aberturas1.jpg" alt="abertura1">
+                </div>
+                <div>
+                    <img src="./imagens/aberturas2.jpg" alt="aberturas2">
+                </div>
+                <div>
+                    <img src="./imagens/aberturas3.jpg" alt="aberturas3">
+                </div>
+                <div>
+                    <img src="./imagens/aberturas4.jpg" alt="aberturas4">
+                </div>
+            </div>
+            <button id="btncarrocel-ante" class="btn">&lt;</button>
+            <button id="btncarrocel-prox" class=""></button>
+        </div>
+    </div>
+
+    <!-- Conteudo principal -->
+    <main>
+        <section>
+            <div class="servicos">
+                <div>
+                    <img src="./imagens/janela.png" alt="Instalação de janelas">
+                </div>
+                <div class="descricao">
+                    <h2>Serviços Especializados</h2>
+                    <p>Oferecemos instalação profissional de:</p>
+                    <ul>
+                        <li>Janelas de todos os tipos</li>
+                        <li>Portas residenciais e comerciais</li>
+                    </ul>
+                    <a href="https://wa.me/5551992342108" target="_blank" 
+                       class="btnwhats">
+                        Fale Conosco pelo WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--Seção de serviços-->
+        <section>
+            <div class="tipoSevicos">
+                <img src="./imagens/instalandoPorta.jpg" alt="" class="imgservico">
+                <h3>Instalação Profissional</h3>
+                <p>Equipe especializada com anos de experiência no mercado.</p>
+            </div>
+            <div class="tipoSevicos">
+                <img src="./imagens/reparoPorta.png" alt="">
+                <h3>Manutenção</h3>
+                <p>Serviços de reparo e manutenção para todas as suas aberturas.</p>
+            </div>
+            <div class="tipoSevicos">
+                <img src="./imagens/consultoria.jpg" alt="">
+                <h3>Consultoria</h3>
+                <p>Orientação técnica para escolher a melhor solução para seu projeto.</p>
+            </div>
+        </section>
+
+        <section class="contato">
+            <h2>Por que nos escolher?</h2>
+        </section>
+    </main>
 </body>
 </html>
