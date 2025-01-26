@@ -1,16 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    background: rgb(250, 224, 224);
+    font-family: 'Poppins', sans-serif;
+    background-color: #ddaaa9;
 }
-.cabecalho .logo{
-    width: 270px;
-    margin: 0px;
-    padding: 0px;
-    padding: 0px;
-}
-header{
-    
+
+.cabecalho{
     display: flex;
-    margin-top: -10px;
-    margin-left: -10px;
-    padding: 0px;
+    flex-direction: row;
+    background-color: #6E2423;
+    color: white;
+    
+}
+
+header img{
+    width: 250px;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+header h1{
+    margin: 90px auto auto 50px;
+    font-size: 30pt;
+}
+
+header p{
+    display: block;
+    text-align: center;
+    margin: auto;
+    background-color: #6E2423;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 15pt;
+}
+
+#whatsapp-button {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    z-index: 50;
+}
+
+#whatsapp-button a {
+    display: flex;
+    align-items: center;
+    background-color: #22c55e; /* green-500 */
+    color: white;
+    border-radius: 9999px;
+    padding: 1rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s;
+}
+
+#whatsapp-button a:hover {
+    background-color: #16a34a; /* green-600 */
+    transform: scale(1.1) rotate(6deg);
+}
+
+#whatsapp-button svg {
+    width: 24px;
+    height: 24px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+#whatsapp-button a {
+    animation: pulse 2s infinite;
+}
+
+#whatsapp-button a:hover {
+    animation: none;
 }
