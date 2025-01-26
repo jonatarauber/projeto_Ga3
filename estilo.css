@@ -35,44 +35,90 @@ header p{
     background-color: #6E2423;
     color: white;
     padding-bottom: 10px;
-    font-size: 15pt;
+    font-size: 18pt;
 }
 
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 1.7em;
+    line-height: 1.5em;
     padding-left: 30px;
     font-size: 1.3vw;
 }
 
-section .quemSomos{
+.quemSomos{
     background-color: rgba(51, 51, 51, 0.486);
     color: white;
     border-radius: 10px;
     padding: 10px;
-    margin-left: 350px;
-    margin-right: 20px;
+    width: 45vw;
+    margin-left: 46vw;
+    text-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);;
 }
-
-section
 
 section p{
     padding-bottom: 1em;
 }
 
-section .container{
+.container {
     background-color: rgb(51, 51, 51);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
-    background-size: cover;
     background-attachment: fixed;
 }
 
-section#img01{
+#img01{
     background-image: url("./imagens/aberturas3.jpg");
     background-position: right center;
 
+}
+
+section.tipoServicos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.tipoServico1{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.tipoServico2{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.tipoServico3{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.imgservico{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+div.porque{
+    background-color: white;
+}
+
+section img{
+    width: 80px;
+}
+
+div.experiencia{
+    display: flex;
+    flex-direction: row;
 }
 
 #whatsapp-button {
